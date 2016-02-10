@@ -4,6 +4,8 @@ require 'cwiid'
 
 puts 'Put Wiimote in discoverable mode now (press 1+2)...'
 
+10.sleep
+
 wiimote = WiiMote.new
 
 class PongBot < SlackRubyBot::Bot
