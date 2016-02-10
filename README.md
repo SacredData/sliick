@@ -10,6 +10,14 @@ If you send a bot attached to this script a friendly "ping" in Slack, it will re
 
 You'll need to run a `bundle install` to get the gems you need.
 
+Make sure you have all of the libraries needed to get your Wiimote recognized on your Linux box. Perhaps try this if you're running a Debian-based distribution of Linux:
+
+```bash
+sudo aptitude install wmgui wminput lswm
+
+sudo apt-get install libcwiid-dev libcwiid1 libboost-all-dev
+```
+
 Also, don't forget to register your bot in Slack and keep its API token handy!.
 
 ### Bring the Ruckus To Your Wiimote
