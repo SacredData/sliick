@@ -4,7 +4,7 @@ require 'cwiid'
 
 puts 'Put Wiimote in discoverable mode now (press 1+2)...'
 
-10.sleep
+sleep 5
 
 wiimote = WiiMote.new
 
